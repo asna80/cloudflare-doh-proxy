@@ -1,6 +1,6 @@
 const UPSTREAM_DNS_PROVIDERS = [
-  { url: 'https://hk-hkg.doh.sb/dns-query', priority: 1, healthScore: 100, lastCheck: 0, consecutiveFailures: 0, fronting: 'hk-hkg.doh.sb', avgResponseTime: 0, successCount: 0, totalRequests: 0, region: 'asia', circuitState: 'closed', lastCircuitOpen: 0 },
-  { url: 'https://jp-kix.doh.sb/dns-query', priority: 2, healthScore: 100, lastCheck: 0, consecutiveFailures: 0, fronting: 'jp-kix.doh.sb', avgResponseTime: 0, successCount: 0, totalRequests: 0, region: 'asia', circuitState: 'closed', lastCircuitOpen: 0 },
+  { url: 'https://hk-hkg.doh.sb/dns-query', priority: 1, healthScore: 100, lastCheck: 0, consecutiveFailures: 0, fronting: 'hk-hkg.doh.sb', avgResponseTime: 0, successCount: 0, totalRequests: 0, region: 'global', circuitState: 'closed', lastCircuitOpen: 0 },
+  { url: 'https://jp-kix.doh.sb/dns-query', priority: 2, healthScore: 100, lastCheck: 0, consecutiveFailures: 0, fronting: 'jp-kix.doh.sb', avgResponseTime: 0, successCount: 0, totalRequests: 0, region: 'global', circuitState: 'closed', lastCircuitOpen: 0 },
 ];
 
 const DNS_CACHE_TTL_MIN = 60;
