@@ -1,5 +1,5 @@
 const UPSTREAM_DNS_PROVIDERS = [
-  { url: 'https://odoh.cloudflare-dns.com/dns-query', priority: 1, healthScore: 100, lastCheck: 0, consecutiveFailures: 0, fronting: 'odoh.cloudflare-dns.com', avgResponseTime: 0, successCount: 0, totalRequests: 0, region: 'global', circuitState: 'closed', lastCircuitOpen: 0 },
+  { url: 'https://odoh.cloudflare-dns.com/dns-query', priority: 1, healthScore: 100, lastCheck: 0, consecutiveFailures: 0, fronting: 'odoh.cloudflare-dns.com', avgResponseTime: 0, successCount: 0, totalRequests: 0, region: 'global', circuitState: 'closed', lastCircuitOpen: 0 }
 ];
 
 const DNS_CACHE_TTL_MIN = 60;
